@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+
+    <style name="RoundedAndBorderedImageView">
+        <item name="android:background">@drawable/click_to_select</item>
+    </style>
+
+    <style name="RoundedTopCorner">
+        <item name="cornerSizeTopRight">25dp</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+    </style>
+
+    <style name="PhotoRoundedCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">30dp</item>
+    </style>
+    
+    <style name="MaterialRoundedContainer">
+        <item name="cornerSize">50dp</item>
+    </style>
+
+
+
+</resources>

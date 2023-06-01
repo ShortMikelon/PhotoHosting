@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standardTextSize">23sp</dimen>
+    <dimen name="photoNameTextSize">30sp</dimen>
+    <dimen name="preview_height">270dp</dimen>
+    <dimen name="preview_width">170dp</dimen>
+    <dimen name="preview_margin">20dp</dimen>
+    <dimen name="image_details_min_height">300dp</dimen>
+
+    <dimen name="large_space">30dp</dimen>
+    <dimen name="medium_space">15dp</dimen>
+    <dimen name="small_space">8dp</dimen>
+
+    <dimen name="medium_padding">8dp</dimen>
+    <dimen name="large_round">30dp</dimen>
+
+    <dimen name="small_round">10dp</dimen>
+    <dimen name="avatar_size">150dp</dimen>
+
+</resources>

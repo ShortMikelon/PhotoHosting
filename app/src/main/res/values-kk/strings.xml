@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pixel Share</string>
+    <string name="please_wait">Өтінемін күте тұрыңыз</string>
+    <string name="failed_load">Error</string>
+    <string name="try_again">әрекетті қайталаңыз</string>
+    <string name="comments">Пікірлер</string>
+    <string name="author_name">Автор: %1$s</string>
+    <string name="add_comment">пікір қосу</string>
+    <string name="comment_hint">осы суреттің сізге ұнайтынын бөлісіңіз</string>
+    <string name="publish">Жіберу</string>
+    <string name="other_works_author">Автордың басқа да жұмыстары</string>
+    <string name="show_comments">%1$d пікірлерді көрсету</string>
+    <string name="comment_sent_success">Пікір сәтті жіберілді</string>
+    <string name="error_has_occurred">Пікір жіберілмеді</string>
+    <string name="empty_list">Бос тізім</string>
+    <string name="default_avatar_will_used">Егер аватарды таңдамасаңыз, әдепкі аватар қолданылады.</string>
+    <string name="sign_up">Тіркелу</string>
+    <string name="choose_avatar">Аватарды таңдау</string>
+    <string name="failed_image_load">Сурет жүктелмеді</string>
+    <string name="incorrect_email">Қате электрондық пошта</string>
+    <string name="failed_sign_up">Тіркелу сәтсіз аяқталды</string>
+    <string name="account_already_exists">Бұл электрондық почта бос емес</string>
+    <string name="password_warning">Құпия сөз сәйкес келмеді</string>
+    <string name="weak_password">Әлсіз пароль</string>
+    <string name="empty_field">Бос</string>
+    <string name="success_sign_up">Аккаунт сәтті жасалды</string>
+    <string name="email">Электрондық пошта</string>
+    <string name="password">Құпия сөз</string>
+    <string name="name">Аты</string>
+    <string name="repeat_password">Құпия сөзді қайталаңыз</string>
+    <string name="previews">Суреттер</string>
+    <string name="wrong_password">Құпия сөз қате</string>
+    <string name="account_not_found">Аккаунт табылмады</string>
+    <string name="bad_internet">Нашар интернет</string>
+    <string name="sign_in">Кіру</string>
+    <string name="profile">Профиль</string>
+    <string name="invalid_image">Қате сурет</string>
+    <string name="failed_create_image">Сурет жасау сәтсіз аяқталды</string>
+    <string name="name_image">Суретке ат қойыңыз</string>
+    <string name="description_for_image">Суретке сипаттама</string>
+    <string name="create_image">Сурет жасау</string>
+    <string name="followers">Жазылушылар</string>
+    <string name="subscribe">Жазылу</string>
+    <string name="subscriptions">Жазылымдар</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph">
+
+    <fragment
+        android:id="@+id/previewsFragment"
+        android:name="kz.aues.photohosting.presentations.main.tabs.images.PreviewsFragment"
+        android:label="fragment_images"
+        tools:layout="@layout/fragment_images" />
+
+    <fragment
+        android:id="@+id/imageDetailsFragment"
+        android:name="kz.aues.photohosting.presentations.main.image_details.ImageDetailsFragment"
+        android:label="ImageDetailsFragment"
+        tools:layout="@layout/fragment_image_details"/>
+
+    <dialog
+        android:id="@+id/addCommentDialog"
+        android:name="kz.aues.photohosting.presentations.main.add_comments.AddCommentDialogFragment"
+        android:label="AddCommentDialog" />
+
+    <fragment
+        android:id="@+id/commentsFragment"
+        android:name="kz.aues.photohosting.presentations.main.comments.CommentsFragment"
+        android:label="CommentsFragment" />
+
+    <fragment
+        android:id="@+id/tabsFragment"
+        android:name="kz.aues.photohosting.presentations.main.tabs.TabsFragment"
+        android:label="fragment_tabs"
+        tools:layout="@layout/fragment_tabs" />
+
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="kz.aues.photohosting.presentations.main.sign_up.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_sign_up"/>
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="kz.aues.photohosting.presentations.main.sign_in.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="kz.aues.photohosting.presentations.main.tabs.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <argument
+            android:name="screen"
+            app:argType="kz.aues.photohosting.presentations.main.tabs.profile.ProfileFragment$Screen" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createImageFragment"
+        android:name="kz.aues.photohosting.presentations.main.tabs.create_image.CreateImageFragment"
+        android:label="CreateImageFragment"
+        tools:layout="@layout/fragment_create_image"/>
+
+</navigation>

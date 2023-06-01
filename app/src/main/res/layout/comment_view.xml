@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/authorNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        tools:text="author"
+        app:layout_constraintEnd_toStartOf="@id/spaceBetweenAuthorAndCreatedAt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/createdAtTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        tools:text="created at"
+        app:layout_constraintStart_toEndOf="@id/spaceBetweenAuthorAndCreatedAt"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Space
+        android:id="@+id/spaceBetweenAuthorAndCreatedAt"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/authorNameTextView"
+        app:layout_constraintEnd_toStartOf="@id/createdAtTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/commentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/authorNameTextView"
+        tools:text="aset ali amina ayau" />
+
+</merge>

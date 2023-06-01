@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "175749731376",
+    "firebase_url": "https://photo-hosting-40b82-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "photo-hosting-40b82",
+    "storage_bucket": "photo-hosting-40b82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175749731376:android:9cb21537c586890c10c9f5",
+        "android_client_info": {
+          "package_name": "kz.aues.photohosting.data"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175749731376-jfscpepsprn9a4vn3dl7o35riul3kt7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kz.aues.photohosting.data",
+            "certificate_hash": "79080819c5c05257974b1c8b699e2aad34ac26d5"
+          }
+        },
+        {
+          "client_id": "175749731376-fookn2l3btffptgra40k675dlng99ime.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdHkiEaA7sC9o_Pq3tUhXaxXSStRycn2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175749731376-fookn2l3btffptgra40k675dlng99ime.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
